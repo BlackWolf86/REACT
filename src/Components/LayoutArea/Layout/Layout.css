@@ -15,7 +15,7 @@ section{
 header{
     grid-column: span 12/13;
     border: 2px solid black;
-    background-color: yellow;
+    background-color: slateblue
 }
 aside{
     grid-column: span 2/2;

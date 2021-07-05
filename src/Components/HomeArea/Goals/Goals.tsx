@@ -1,9 +1,13 @@
 import "./Goals.css";
+interface DetailsProps {
+    team: string,
+    goals: number
+}
 
-function Goals(): JSX.Element {
+function Goals(props: DetailsProps): JSX.Element {
     return (
-        <div className="Goals">
-			
+        <div className="Goals Box">
+            <span>In {props.team} he scored {props.goals}</span>
         </div>
     );
 }
