@@ -4,9 +4,10 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
-img {
-    
+.Main > img {
+    height: 35%;
+    width: 35%;
 }

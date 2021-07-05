@@ -32,19 +32,21 @@ html, body, #root{
 .Box {
   display:inline;
   text-align: center;
-  border-radius: 100px;
+  border-radius: 10px;
+  border: solid 3px black;
   background-color: cornsilk;
   margin: 5px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 5px 5px 15px 5px #2856ad;
 }
 
 .Box2 {
   display:inline;
   text-align: center;
-  border-radius: 100px;
+  border-radius: 10px;
+  border: solid 3px black;
   background-color: silver;
   margin: 5px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 5px 5px 15px 5px #2856ad;
 }
