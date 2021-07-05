@@ -10,12 +10,12 @@ export function Layout(): JSX.Element {
             <header>
                 <Header />
             </header>
-            <main>
-                <Main />
-            </main>
             <aside>
                 <Menu />
             </aside>
+            <main>
+                <Main />
+            </main>
             <footer>
                 <Footer />
             </footer>

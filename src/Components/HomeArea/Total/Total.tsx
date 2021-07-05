@@ -5,7 +5,7 @@ function Total(): JSX.Element {
     return (
         <div className="Total Box">
             <h2>Goals</h2>
-            <p>Cristiano scored {numOfGoals} so far</p>
+            <p>Cristiano scored {numOfGoals} goals so far</p>
         </div>
     );
 }
