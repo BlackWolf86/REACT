@@ -1,6 +1,7 @@
 import Clubs from "../Clubs/Clubs";
 import Goals from "../Goals/Goals";
 import Sales from "../Sales/Sales";
+import TheBest from "../TheBest/TheBest";
 import Total from "../Total/Total";
 import Workout from "../Workout/Workout";
 import "./Main.css";
@@ -21,6 +22,7 @@ function Main(): JSX.Element {
 
             <h2>Now on Sale!</h2>
             <Sales percent={10} />
+            <TheBest />
         </div>
     );
 }

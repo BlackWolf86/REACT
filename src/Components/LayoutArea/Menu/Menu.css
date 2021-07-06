@@ -6,5 +6,7 @@
 }
 
 .Menu > span{
-    color: black
+    color: black;
+    font-size: x-large;
+    font: bold;
 }

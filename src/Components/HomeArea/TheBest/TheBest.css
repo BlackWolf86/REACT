@@ -1,0 +1,10 @@
+.TheBest {
+	
+}
+
+.TheBest > button {
+    background-color: skyblue;
+    color: salmon;
+    font-size: x-large;
+    font: bold;
+}

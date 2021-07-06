@@ -1,0 +1,12 @@
+.Logo {
+    /* background-color: saddlebrown; */
+	position: absolute;
+    left: 5px;
+    width: 45%;
+}
+
+.Logo > img {
+    left: 5px;
+    width: 18%;
+    height: 18%;
+}

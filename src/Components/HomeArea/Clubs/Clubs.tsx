@@ -9,7 +9,7 @@ function Clubs(): JSX.Element {
     return (
         <div className="Clubs Box">
             <h2>Clubs</h2>
-            {teams.map(team => <span key="team.id">&nbsp;{team.name}&nbsp;|</span>)}
+            {teams.map((team,idx) => <span key="team.id">{(idx ? ' || ' : '')}{team.name}</span>)}
         </div>
     );
 }
