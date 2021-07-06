@@ -1,11 +1,8 @@
 .Logo {
-    align-items: start;
-    display:flex;
-    left: 10px;
+    display: flex;
 }
 
 .Logo > img {
-    width: 7%;
-    position: relative;
-    margin-bottom: 60px;
+    width: 8%;
+    margin-bottom: 70px;
 }
