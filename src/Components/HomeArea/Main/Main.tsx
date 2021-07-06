@@ -1,5 +1,6 @@
 import Clubs from "../Clubs/Clubs";
 import Goals from "../Goals/Goals";
+import Sales from "../Sales/Sales";
 import Total from "../Total/Total";
 import Workout from "../Workout/Workout";
 import "./Main.css";
@@ -17,6 +18,9 @@ function Main(): JSX.Element {
             <Goals team="Manchester United" goals={331} />
             <Goals team="Real Madrid" goals={331} />
             <Goals team="Juventus" goals={331} />
+
+            <h2>Now on Sale!</h2>
+            <Sales percent={10} />
         </div>
     );
 }
