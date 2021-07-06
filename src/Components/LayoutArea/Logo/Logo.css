@@ -1,12 +1,11 @@
 .Logo {
-    /* background-color: saddlebrown; */
-	position: absolute;
-    left: 5px;
-    width: 45%;
+    align-items: start;
+    display:flex;
+    left: 10px;
 }
 
 .Logo > img {
-    left: 5px;
-    width: 18%;
-    height: 18%;
+    width: 7%;
+    position: relative;
+    margin-bottom: 60px;
 }

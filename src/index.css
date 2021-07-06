@@ -30,7 +30,7 @@ html, body, #root{
 }
 
 .Box {
-  display:inline;
+  display: inline-block;
   text-align: center;
   border-radius: 10px;
   border: solid 3px black;
@@ -41,7 +41,7 @@ html, body, #root{
 }
 
 .Box2 {
-  display:inline;
+  display: inline-block;
   text-align: center;
   border-radius: 10px;
   border: solid 3px black;
