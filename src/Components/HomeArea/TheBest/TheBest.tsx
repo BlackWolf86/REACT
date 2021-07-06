@@ -6,7 +6,7 @@ function TheBest(): JSX.Element {
     }
     return (
         <div className="TheBest Box">
-            <h2>Events</h2>
+            <h2>Who is the best player in the world?</h2>
             <button onClick={showTheBest}>Click me please!</button>
         </div>
     );

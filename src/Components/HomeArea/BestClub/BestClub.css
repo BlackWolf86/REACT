@@ -1,3 +1,10 @@
 .BestClub {
 	
 }
+
+.BestClub > button {
+    background-color: skyblue;
+    color: salmon;
+    font-size: x-large;
+    font: bold;
+}
