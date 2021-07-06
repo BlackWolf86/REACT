@@ -3,11 +3,11 @@ import "./Menu.css";
 function Menu(): JSX.Element {
     return (
         <div className="Menu">
-            <span>Clubs</span>
+            <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">Clubs</a>
             <br />
-            <span>Goals</span>
+            <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">Goals</a>
             <br />
-            <span>Titles</span>
+            <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">Titles</a>
         </div>
     );
 }

@@ -1,6 +1,7 @@
 import BestClub from "../BestClub/BestClub";
 import Clubs from "../Clubs/Clubs";
 import Goals from "../Goals/Goals";
+import MUI from "../MUI/MUI";
 import Sales from "../Sales/Sales";
 import TheBest from "../TheBest/TheBest";
 import Total from "../Total/Total";
@@ -25,6 +26,7 @@ function Main(): JSX.Element {
             <Sales percent={10} />
             <TheBest />
             <BestClub />
+            {/* <MUI /> */}
         </div>
     );
 }
