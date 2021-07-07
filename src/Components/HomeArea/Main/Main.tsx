@@ -1,8 +1,10 @@
 import BestClub from "../BestClub/BestClub";
+import Clock from "../Clock/Clock";
 import Clubs from "../Clubs/Clubs";
+import ContactUs from "../ContactUs/ContactUs";
 import Goals from "../Goals/Goals";
-import MUI from "../MUI/MUI";
 import Sales from "../Sales/Sales";
+import Search from "../Search/Search";
 import TheBest from "../TheBest/TheBest";
 import Total from "../Total/Total";
 import Workout from "../Workout/Workout";
@@ -21,11 +23,13 @@ function Main(): JSX.Element {
             <Goals team="Manchester United" goals={331} />
             <Goals team="Real Madrid" goals={331} />
             <Goals team="Juventus" goals={331} />
-
             <h2>Now on Sale!</h2>
             <Sales percent={10} />
             <TheBest />
+            <Clock />
             <BestClub />
+            <ContactUs />
+            <Search />
             {/* <MUI /> */}
         </div>
     );
