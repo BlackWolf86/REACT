@@ -13,9 +13,9 @@ function Main(): JSX.Element {
             <Total />
             <Workout />
             <TheBest />
-            <Clock />
+            {/* <Clock /> */}
             <BestClub />
-            <Search />
+            {/* <Search /> */}
             {/* <MUI /> */}
         </div>
     );

@@ -28,13 +28,12 @@ class Search extends Component<{}, SearchState> {
 
     public render(): JSX.Element {
         return (
-            <div className="Search Box">
+            <div className="Search">
                 <label>Search</label>
                 <input type="text"
                     placeholder="what you're looking for?"
                     onChange={this.setValue}
                     value={this.state.txt}
-
                 />
                 {this.state.txt.length == 0 || <span>Searching for {this.state.txt}</span>}
                 <button onClick={this.clearValue}>Clear</button>

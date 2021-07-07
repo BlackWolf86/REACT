@@ -28,8 +28,7 @@ class Clock extends Component<{}, ClockState> {
     // usage: return back the component UI
     public render(): JSX.Element {
         return (
-            <div className="Clock Box">
-                <h2>Lifecycle hooks</h2>
+            <div className="Clock">
                 <p>{this.state.time}</p>
             </div>
         );

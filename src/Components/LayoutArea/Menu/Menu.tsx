@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Search from "../../HomeArea/Search/Search";
 import "./Menu.css";
 
 function Menu(): JSX.Element {
