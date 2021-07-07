@@ -1,18 +1,28 @@
 import { Component } from "react";
 import "./AllClubs.css";
+import RealMadridLogo from '../../../Assets/Images/RealMadridLogo.png';
+import ManchesterUnitedLogo from '../../../Assets/Images/ManchesterLogo.png';
+import SportingCPLogo from '../../../Assets/Images/SportingCPBLogo.png';
+import JuventusLogo from '../../../Assets/Images/JuventusLogo.png';
 
 class AllClubs extends Component {
 
     public render(): JSX.Element {
-    const teams = [{ "id": 1, "name": 'Sporting CP B' },
-    { "id": 2, "name": 'Sporting CP' },
-    { "id": 3, "name": 'Manchester United' },
-    { "id": 4, "name": 'Real Madrid' },
-    { "id": 5, "name": 'Juventus' }];
         return (
             <div className="AllClubs">
-				<h2>Clubs</h2>
-                {teams.map((team,idx) => <span key="team.id">{(idx ? ' || ' : '')}{team.name}</span>)}
+                <h2>Clubs</h2>
+                <a href="https://en.wikipedia.org/wiki/Sporting_CP">
+                    <img src={SportingCPLogo} />
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Manchester_United_F.C.">
+                    <img src={ManchesterUnitedLogo} />
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Real_Madrid_CF">
+                    <img src={RealMadridLogo} />
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Juventus_F.C.">
+                    <img src={JuventusLogo} />
+                </a>
             </div>
         );
     }
