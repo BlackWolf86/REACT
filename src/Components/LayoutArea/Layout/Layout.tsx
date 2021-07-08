@@ -4,6 +4,7 @@ import Menu from "../Menu/Menu";
 import "./Layout.css";
 import { BrowserRouter } from "react-router-dom";
 import Routing from "../Routing/Routing";
+import BackgroundImage from "../BackgroundImage/BackgroundImage";
 
 export function Layout(): JSX.Element {
     return (

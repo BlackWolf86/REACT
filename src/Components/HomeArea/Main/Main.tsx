@@ -1,6 +1,4 @@
 import BestClub from "../BestClub/BestClub";
-import Clock from "../Clock/Clock";
-import Search from "../Search/Search";
 import TheBest from "../TheBest/TheBest";
 import Total from "../Total/Total";
 import Workout from "../Workout/Workout";
@@ -13,9 +11,7 @@ function Main(): JSX.Element {
             <Total />
             <Workout />
             <TheBest />
-            {/* <Clock /> */}
             <BestClub />
-            {/* <Search /> */}
             {/* <MUI /> */}
         </div>
     );
